@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 filename = 'decision_tree_model(1).pkl'
-loaded_model = joblib.load(open(filename, 'rb'))
+loaded_model = joblib.load(open("decision_tree_model.pkl", 'rb'))
 
 # Define the correct column names
 columns = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
